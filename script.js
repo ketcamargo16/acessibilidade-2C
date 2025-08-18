@@ -1,0 +1,20 @@
+document.addEventListener('DOMContentLoald', function()){
+    const aumentaFonteBotao= document.getElementById('aumentar-fonte');
+    const diminuirFonteBotao= document.getElementById('diminuir-fonte');
+
+      let tamanhoAtualFonte= 1;
+
+     aumentaFonteBotao.addEventListener('click', function(){
+        tamanhoAtualFonte +=0.1;
+        document.body.style.frontSize =`${tamanhoAtualFonte}rem`
+         
+     })
+
+ diminuirFonteBotao.addEventListener('click', function(){
+        tamanhoAtualFonte -=0.1;
+        document.body.style.frontSize =`${tamanhoAtualFonte}rem`
+         
+     })
+ 
+
+} //falta parentes?
