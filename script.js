@@ -13,8 +13,15 @@ document.addEventListener('DOMContentLoald', function(){
  diminuirFonteBotao.addEventListener('click', function(){
         tamanhoAtualFonte -=0.1;
         document.body.style.frontSize =`${tamanhoAtualFonte}rem`
-         
-     })
+        })
+const botaoAcessibilidade= document.getElementById('botao-acessibilidade');
+const opcoesDeAcessibilidade=document.getElementById('opcoes-acessibilidade');
+
+botaoAcessibilidade.addEventListener('click', function(){
+   
+})
+
+
  
 
 })
