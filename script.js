@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoald', function()){
+document.addEventListener('DOMContentLoald', function(){
     const aumentaFonteBotao= document.getElementById('aumentar-fonte');
     const diminuirFonteBotao= document.getElementById('diminuir-fonte');
 
@@ -17,4 +17,4 @@ document.addEventListener('DOMContentLoald', function()){
      })
  
 
-} //falta parentes?
+})
