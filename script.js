@@ -19,6 +19,8 @@ const opcoesDeAcessibilidade=document.getElementById('opcoes-acessibilidade');
 
 botaoAcessibilidade.addEventListener('click', function(){
    botaoAcessibilidade.classList.toggle('rotacao-botao');
+    opcoesDeAcessibilidade.classList.toggle('apresenta-lista');
+
 })
 
 
